@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+      
+        
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+.info p{
+    margin: 30px;
+}
+h1{
+    text-align: center;
+}
+ 
+.grid-container {
+  columns: 8 200px;
+  column-gap: 1.5rem;
+  width: 90%;
+  margin: 0 auto;
+  div {
+    width: 150px;
+    margin: 0 1.5rem 1.5rem 0;
+    display: inline-block;
+    width: 100%;
+    border: solid 2px black;
+    padding: 5px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    border-radius: 5px;
+    transition: all .25s ease-in-out;
+  
+    &:hover {
+      border-color: coral;
+    }
+    img {
+      width: 100%;
+     
+      border-radius: 5px;
+      transition: all .25s ease-in-out;
+    }
+    p {
+      margin: 5px 0;
+      padding: 0;
+      text-align: center;
+      font-style: italic;
+      color: #333;
+    }
+  }
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>A Glimpse Into the Soul Through Portrate photography</h1>
+        <div class="info">
+            <p>
+                In the realm of portraiture, the camera becomes a storyteller, capturing the essence of a person in a single frame. Each photograph is a window into the subject's soul, revealing layers of emotion, character, and narrative. From the subtle curve of a smile to the intensity of a gaze, every detail speaks volumes, inviting the viewer to connect on a deeper level. Whether it's a candid snapshot or a carefully composed portrait, the beauty lies in the authenticity and vulnerability captured within. </p>
+        </div>
+        <div class="gallery">
+        
+<div class="grid-container">
+  <div>
+    <img class='grid-item grid-item-1' src='wedding.jpeg' alt=''>
+    <p>"Grace in simplicity: where the beauty of the soul shines brightest."</p>
+  </div>
+  <div>
+    <img class='grid-item grid-item-2' src='pb1.jpg' alt=''>
+    <p>"Eyes that speak volumes, echoing stories untold."</p>
+  </div>
+  <div>
+    <img class='grid-item grid-item-3' src='girl1.jpeg' alt=''>
+    <p>Capturing moments, etching memories, one smile at a time.</p>
+  </div>
+  <div>
+    <img class='grid-item grid-item-4' src='potrate1.jpg' alt=''>
+    <p>"In the quiet gaze lies the depth of a thousand words."</p>
+  </div>
+  <div>
+    <img class='grid-item grid-item-5' src='girl4.jpeg' alt=''>
+    <p>"Embracing imperfections, celebrating uniqueness."</p>
+  </div>
+  <div>
+    <img class='grid-item grid-item-6' src='potrate2.jpg' alt=''>
+    <p>"A glimpse into the soul, framed by the lens of life."</p>
+  </div>
+  <div>
+    <img class='grid-item grid-item-7' src='boy2.jpeg' alt=''>
+    <p>"Whispers of wisdom, etched in the lines of experience."</p>
+  </div>
+  <div>
+    <img class='grid-item grid-item-8' src='girl3.jpg' alt=''>
+    <p>"Radiance personified: a portrait of inner light."</p>
+  </div>
+  <div>
+    <img class='grid-item grid-item-9' src='potrate3.jpg' alt=''>
+    <p>"Unveiling layers, revealing truths, through the art of portraiture."</p>
+  </div>
+  <div>
+    <img class='grid-item grid-item-10' src='pb3.jpg' alt=''>
+    <p>"Every face tells a story; every portrait, a chapter in the book of life."</p>
+  </div>
+</div>
+        </div>
+
+    </div>
+   
+</body>
+</html>

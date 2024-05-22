@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+      
+        
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+.info p{
+    margin: 30px;
+}
+h1{
+    text-align: center;
+}
+ 
+.grid-container {
+  columns: 8 200px;
+  column-gap: 1.5rem;
+  width: 90%;
+  margin: 0 auto;
+  div {
+    width: 150px;
+    margin: 0 1.5rem 1.5rem 0;
+    display: inline-block;
+    width: 100%;
+    border: solid 2px black;
+    padding: 5px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    border-radius: 5px;
+    transition: all .25s ease-in-out;
+  
+    &:hover {
+      border-color: coral;
+    }
+    img {
+      width: 100%;
+     
+      border-radius: 5px;
+      transition: all .25s ease-in-out;
+    }
+    p {
+      margin: 5px 0;
+      padding: 0;
+      text-align: center;
+      font-style: italic;
+      color: #333;
+    }
+  }
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1> A Journey Through Travel Photography</h1>
+        <div class="info">
+            <p>Travel photography is a captivating art form that combines the thrill of exploration with the passion for capturing moments. It allows photographers to document the diverse beauty of the world, from bustling cityscapes and serene landscapes to the vibrant cultures and unique traditions of different communities. Every photograph tells a story, offering a glimpse into the lives and environments of distant places. The essence of travel photography lies in its ability to evoke a sense of wanderlust and curiosity, inspiring viewers to see the world from new perspectives.</p>
+        </div>
+        <div class="gallery">
+        
+<div class="grid-container">
+  <div>
+    <img class='grid-item grid-item-1' src='kerla.jpg' alt=''>
+    <p>"Tranquility in motion: A timeless journey on the gentle currents of the river,"</p>
+  </div>
+  <div>
+    <img class='grid-item grid-item-2' src='tajmahal.png' alt=''>
+    <p>"Taj Mahal: a testament to love's enduring legacy"</p>
+  </div>
+  <div>
+    <img class='grid-item grid-item-3' src='bali.jpg' alt=''>
+    <p>Bali: Where vibrant culture meets breathtaking beauty</p>
+  </div>
+  <div>
+    <img class='grid-item grid-item-4' src='japan.webp' alt=''>
+    <p>"Step into the sacred realm of Japan's iconic temple"</p>
+  </div>
+  <div>
+    <img class='grid-item grid-item-5' src='vizag.jpeg' alt=''>
+    <p>"Embrace the tranquil allure of Vizag's Beach Road"</p>
+  </div>
+  <div>
+    <img class='grid-item grid-item-6' src='rameshwaram.jpeg' alt=''>
+    <p>"The sacred shores of Rameshwaram"</p>
+  </div>
+  <div>
+    <img class='grid-item grid-item-7' src='ifeltower.jpeg' alt=''>
+    <p>"Eiffel Tower,Paris"</p>
+  </div>
+  <div>
+    <img class='grid-item grid-item-8' src='hyderabad2.jpeg' alt=''>
+    <p>"Charminar,Hyderabad"</p>
+  </div>
+  <div>
+    <img class='grid-item grid-item-9' src='maldives.jpeg' alt=''>
+    <p>"Maldives"</p>
+  </div>
+  <div>
+    <img class='grid-item grid-item-10' src='dubai2.webp' alt=''>
+    <p>"Dubai"</p>
+  </div>
+</div>
+        </div>
+
+    </div>
+   
+</body>
+</html>

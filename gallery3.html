@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+      
+        
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+.info p{
+    margin: 30px;
+}
+h1{
+    text-align: center;
+}
+ 
+.grid-container {
+  columns: 8 200px;
+  column-gap: 1.5rem;
+  width: 90%;
+  margin: 0 auto;
+  div {
+    width: 150px;
+    margin: 0 1.5rem 1.5rem 0;
+    display: inline-block;
+    width: 100%;
+    border: solid 2px black;
+    padding: 5px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    border-radius: 5px;
+    transition: all .25s ease-in-out;
+  
+    &:hover {
+      border-color: coral;
+    }
+    img {
+      width: 100%;
+     
+      border-radius: 5px;
+      transition: all .25s ease-in-out;
+    }
+    p {
+      margin: 5px 0;
+      padding: 0;
+      text-align: center;
+      font-style: italic;
+      color: #333;
+    }
+  }
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Wildlife Photography</h1>
+        <div class="info">
+            <p>
+                Wildlife photography is an exhilarating pursuit that takes photographers into the heart of nature, capturing the raw beauty and untamed spirit of the animal kingdom. It involves patience, skill, and a deep respect for the natural world. Every shot is a blend of timing and technique, whether it's a majestic lion in the savannah, a vibrant bird in mid-flight, or a fleeting moment between a predator and its prey. The challenge lies not only in getting close enough to the subjects without disturbing them but also in conveying their essence and the environment they inhabit. </p>
+        </div>
+        <div class="gallery">
+        
+<div class="grid-container">
+  <div>
+    <img class='grid-item grid-item-1' src='bird1.jpeg' alt=''>
+    <p> </p>
+  </div>
+  <div>
+    <img class='grid-item grid-item-2' src='monkeyb.jpeg' alt=''>
+    <p> </p>
+  </div>
+  <div>
+    <img class='grid-item grid-item-3' src='eleb.jpeg' alt=''>
+    <p> </p>
+  </div>
+  <div>
+    <img class='grid-item grid-item-4' src='tiger.jpeg' alt=''>
+    <p> </p>
+  </div>
+  <div>
+    <img class='grid-item grid-item-5' src='bird2.jpeg' alt=''>
+    <p> </p>
+  </div>
+  <div>
+    <img class='grid-item grid-item-6' src='bird3.jpeg' alt=''>
+    <p> </p>
+  </div>
+  <div>
+    <img class='grid-item grid-item-7' src='gorilab.jpeg' alt=''>
+    <p> </p>
+  </div>
+  <div>
+    <img class='grid-item grid-item-8' src='bird10.jpeg' alt=''>
+    <p> </p>
+  </div>
+  <div>
+    <img class='grid-item grid-item-9' src='green.jpeg' alt=''>
+    <p></p>
+  </div>
+  <div>
+    <img class='grid-item grid-item-10' src='sea1.jpeg' alt=''>
+    <p></p>
+  </div>
+</div>
+        </div>
+
+    </div>
+   
+</body>
+</html>
